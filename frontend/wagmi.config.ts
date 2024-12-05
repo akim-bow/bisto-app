@@ -8,7 +8,7 @@ export default defineConfig({
   plugins: [
     foundry({
       include: ['BiscoToken.json'],
-      project: 'contracts',
+      project: '../',
       deployments: {
         BiscoToken: {
           [sepolia.id]: '0x718A7f5434B846b17158f8B3F3191aD48B58C967',

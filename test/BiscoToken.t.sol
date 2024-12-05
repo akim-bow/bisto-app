@@ -2,7 +2,7 @@
 pragma solidity ^0.8.13;
 
 import {Test, console} from "forge-std/Test.sol";
-import {BiscoToken} from "../../src/BiscoToken.sol";
+import {BiscoToken} from "../src/BiscoToken.sol";
 
 contract BiscoTokenTest is Test {
     BiscoToken public token;
